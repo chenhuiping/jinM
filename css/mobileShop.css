@@ -1,0 +1,272 @@
+﻿body {
+    padding: 0;margin: 0; color: #333333;
+}
+
+.clear {
+    clear:both;
+}
+
+.head {
+    background: #ffffff;;
+    /*height: 1.5em;*/
+    font-size: 1em;
+    padding: .5em 0 .1em 2.5em;
+    color: #ffffff;
+    font-family: "黑体";
+}
+
+
+.main-content {
+    height: 7em;
+}
+
+.m-c-left {
+    width: 8em;
+    float: left;
+    height: 8em;
+    position: relative;
+}
+
+
+
+.album div {
+    position: relative;
+    /*height: 17%;*/
+    /*width: 30%;*/
+    height: 6em;
+    width: 6em;
+    overflow:hidden;
+
+}
+
+.album-1 {
+    /*background: url(../img/photo2.jpg) no-repeat;*/
+    background-size: cover;
+    z-index: 1000;
+    left: 1em;
+    top: .5em;
+}
+
+.album-2 {
+    background: #a1a1a1;
+    z-index: 900;
+    left: 1.3em;
+    top: -5.2em;
+}
+
+.album-3 {
+    background: #c2c2c2;
+    z-index: 800;
+    left: 1.6em;
+    top: -10.9em;
+}
+
+.m-c-right {
+    width:60%;
+    float: right;
+    height: 8em;
+}
+
+.shop-name {
+    margin: 1.2em 1em 1em 0;
+    font-family: 微软雅黑;
+    font-size: 1.2em;
+}
+
+.shop-fenshu {
+    float: left;
+    color: #f9d76d;
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: 600;
+    width: 2em;
+
+    background-image/**/: -webkit-gradient(linear, 0 0, 0 bottom, from(#f9d76d), to(#ef770d));
+    -webkit-background-clip/**/: text;
+    -webkit-text-fill-color/**/: transparent;
+
+}
+
+
+.shop-star {
+    float: left;
+    color: #f9d76d;
+    font-size: .9em;
+    margin-top: .3em;
+
+    background-image/**/: -webkit-gradient(linear, 0 0, 0 bottom, from(#f9d76d), to(#ef770d));
+    -webkit-background-clip/**/: text;
+    -webkit-text-fill-color/**/: transparent;
+
+}
+
+.shop-nostar {
+    float: left;
+    color: #e8e8e8;
+    font-size: .9em;
+    margin-top: .3em;
+}
+
+.list-content {
+    margin: 1em 1em;
+}
+
+.li-item {
+    font-size: .8em;
+    font-family: 黑体;
+    color: #6d6d6d;
+    padding: .5em;
+    border-bottom: thin solid #e5e5e5;
+}
+
+
+
+.title-word {
+    font-family: 黑体;
+    font-size: 1.1em;
+    padding: 0 0 .2em 0;
+    border-bottom: #36bcb1 .15em solid;
+}
+
+.title-content {
+    padding: 1em 0 .1em 0;
+    width: 100%;
+    height: auto;
+
+}
+
+.desc1 {
+    font-size: .8em;
+    color: #5f5f5f;
+}
+
+.new-price {
+    float: left;
+    color: #e17c3e;
+}
+.old-price {
+    text-decoration: line-through;
+    color: #b2b2b2;
+    font-size: .8em;
+    float: left;
+    margin: .2em 0 0 .5em;
+}
+
+.event-left {
+    float: left;
+    background: url(../img/avatar1.jpg)no-repeat;
+    background-size: cover;
+    height: 5em;
+    width: 5em;
+}
+
+.dis-img {
+    width: 5em;
+    height: 5em;
+}
+
+.event-right {
+    margin:  .2em 0 0 1em;
+    float: left;
+    font-family: "黑体";
+    width: 75%;
+}
+
+
+.comment-item {
+    margin: 0 .5em;
+}
+
+.comment-info {
+    padding: .5em 0 1em 0;
+
+}
+
+.comment-name {
+    float: left;
+    font-family: "黑体";
+
+    /*border: thin solid #e5e5e5;*/
+    width: 20%;
+}
+
+
+.comment-time {
+    float: left;
+    /*width: 4em;*/
+    margin-left: 1em;
+    color: #a5a5a5;
+
+    /*border: thin solid #e5e5e5;*/
+    width: 30%;
+}
+
+.star-item {
+    float: right;
+    /*border: thin solid #e5e5e5;*/
+    width: 28%;
+}
+
+.comment-star {
+    float: left;
+    color: #f9d76d;
+    font-size: .9em;
+
+
+    background-image/**/: -webkit-gradient(linear, 0 0, 0 bottom, from(#f9d76d), to(#ef770d));
+    -webkit-background-clip/**/: text;
+    -webkit-text-fill-color/**/: transparent;
+
+    /*-webkit-mask: -webkit-gradient(linear,0%*/
+    /*0%,0%*/
+    /*100%,from(#f9d76d),to(#ef770d));*/
+}
+
+.comment-nostar {
+    float: left;
+    color: #e8e8e8;
+    font-size: .9em;
+}
+
+.comment-con {
+    width:100%;
+    border-bottom: thin solid #e5e5e5;
+    padding-bottom: 1em;
+    margin: 0 0 0 .2em;
+}
+
+.comment-img {
+    padding-bottom: 1em;
+    border-bottom: thin solid #e5e5e5;
+}
+
+.image-item {
+    float: left;
+    height: 3.8em;
+    width: 3.8em;
+    border: thin solid #e5e5e5;
+    margin: .2em .2em .2em 0;
+}
+
+.fl-l {
+    float:left;
+}
+
+.ml-05 {
+    margin-left: .5em;
+}
+
+.mt-02 {
+    margin-top: .2em;
+}
+
+.item-con {
+    float:left;
+    margin-left: .5em;
+    width: 90%;
+}
+
+.tel-a {
+    text-decoration: none;
+    color: #5f5f5f;
+}
